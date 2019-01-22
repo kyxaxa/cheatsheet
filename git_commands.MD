@@ -12,15 +12,15 @@ Our terminal prompt below is currently in an octobox directory. To initialize a 
 
 ## 1.2 Checking the Status
 
-Good job! As Git just told us, our octobox directory now has an empty repository in /.git/. The repository is a hidden directory where Git operates.
+Good job! As Git just told us, our octobox directory now has an empty repository in `/.git/`. The repository is a hidden directory where Git operates.
 
-To save your progress as you go through this tutorial -- and earn a badge when you successfully complete it -- head over to create a free Code School account. We'll wait for you here.
+To save your progress as you go through this tutorial -- and earn a badge when you successfully complete it -- head over to **create a free Code School account**. We'll wait for you here.
 
 Next up, let's type the git status command to see what the current state of our project is:
 
     git status
 
-** 1.3 Adding & Committing
+## 1.3 Adding & Committing
 
 I created a file called `octocat.txt` in the octobox repository for you (as you can see in the browser below).
 
@@ -143,7 +143,7 @@ Files can be changed back to how they were at the last commit by using the comma
 
 When developers are working on a feature or bug they'll often create a copy (aka. **branch**) of their code they can make separate commits to. Then when they're done they can merge this branch back into their main `master` branch.
 
-We want to remove all these pesky octocats, so let's create a branch called clean_up, where we'll do all the work:
+We want to remove all these pesky octocats, so let's create a branch called `clean_up`, where we'll do all the work:
 
     git branch clean_up
 
@@ -151,13 +151,13 @@ We want to remove all these pesky octocats, so let's create a branch called clea
 
 Great! Now if you type `git branch` you'll see two local branches: a main branch named `master` and your new branch named `clean_up`.
 
-You can switch branches using the `git checkout [branch]` command. Try it now to switch to the clean_up branch:
+You can switch branches using the `git checkout [branch]` command. Try it now to switch to the `clean_up` branch:
 
     git checkout clean_up
 
 ## 1.20 Removing All The Things
 
-Ok, so you're in the clean_up branch. You can finally remove all those pesky octocats by using the `git rm` command which will not only remove the actual files from disk, but will also stage the removal of the files for us.
+Ok, so you're in the `clean_up` branch. You can finally remove all those pesky octocats by using the `git rm` command which will not only remove the actual files from disk, but will also stage the removal of the files for us.
 
 You're going to want to **use a wildcard** again to get all the octocats in one sweep, go ahead and run:
 
@@ -173,7 +173,7 @@ Feel free to run `git status` to check the changes you're about to commit.
 
 ## 1.22 Switching Back to master
 
-Great, you're almost finished with the cat... er the bug fix, you just need to switch back to the `master` branch so you can copy (or merge) your changes from the clean_up branch back into the `master` branch.
+Great, you're almost finished with the cat... er the bug fix, you just need to switch back to the `master` branch so you can copy (or merge) your changes from the `clean_up` branch back into the `master` branch.
 
 Go ahead and checkout the `master` branch:
 
@@ -189,7 +189,7 @@ We're already on the `master` branch, so we just need to tell Git to merge the `
 
 ## 1.24 Keeping Things Clean
 
-Congratulations! You just **accomplished your first successful bugfix and merge**. All that's left to do is clean up after yourself. Since you're done with the clean_up branch you don't need it anymore.
+Congratulations! You just **accomplished your first successful bugfix and merge**. All that's left to do is clean up after yourself. Since you're done with the `clean_up` branch you don't need it anymore.
 
 You can use `git branch -d [branch name]` to delete a branch. Go ahead and delete the `clean_up` branch now:
 
