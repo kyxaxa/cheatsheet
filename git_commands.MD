@@ -1,4 +1,4 @@
-The following text is extracted from http://git-scm.com/ which has an **interactive terminal** to get you going. This is just a quick reference to sum up all the commands
+The following text is extracted from http://git-scm.com/ (previously http://try.github.io/levels/1/challenges/1) which has an **interactive terminal** to get you going. This is just a quick reference to sum up all the commands
 
 # Git Commands
 
